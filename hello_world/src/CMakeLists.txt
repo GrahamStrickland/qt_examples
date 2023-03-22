@@ -3,7 +3,7 @@ project(hello_world)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(CMAKE_PREFIX_PATH /usr/local/Cellar/qt)
+set(CMAKE_PREFIX_PATH /usr/local/Cellar/qt/6.4.3)
 set(CMAKE_OSX_DEPLOYMENT_TARGET "10.15.7")
 set(SOURCE_FILES main.cpp)
 

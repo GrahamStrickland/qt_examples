@@ -1,8 +1,13 @@
 #include <QCoreApplication>
 #include <QDebug>
+#include <QString>
 
 int main(int argc, char *argv[]) {
     QCoreApplication a(argc, argv);
-    qDebug() << "Hello World";
+
+    QString name = "Graham";
+
+    qDebug() << "Hello " << name << Qt::endl;
+
     return QCoreApplication::exec();
 }

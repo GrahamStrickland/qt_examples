@@ -26,6 +26,9 @@
 cmake-build-debug/
 **/build
 
+# Natvis files
+*.natvis
+
 # Object files and debugging files
 *.o
 *.out

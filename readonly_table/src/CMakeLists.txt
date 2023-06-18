@@ -10,9 +10,14 @@ set(CMAKE_AUTOMOC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Core Widgets)
 
-set(HEADERS mymodel.h)
+set(HEADERS 
+        mymodel.h
+)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES 
+        main.cpp 
+        mymodel.cpp
+)
 
 add_executable(readonly_table ${SOURCE_FILES})
 

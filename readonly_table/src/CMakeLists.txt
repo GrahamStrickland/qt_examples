@@ -11,11 +11,13 @@ set(CMAKE_AUTOMOC ON)
 find_package(Qt6 REQUIRED COMPONENTS Core Widgets)
 
 set(HEADERS 
+        mainwindow.h
         mymodel.h
 )
 
 set(SOURCE_FILES 
         main.cpp 
+        mainwindow.cpp
         mymodel.cpp
 )
 

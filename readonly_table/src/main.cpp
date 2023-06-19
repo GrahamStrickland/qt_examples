@@ -1,15 +1,14 @@
 #include <QApplication>
-#include <QTableView>
+
+#include "mainwindow.h"
 #include "mymodel.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    QTableView tableView;
-    MyModel myModel;
+    MainWindow w;
 
-    tableView.setModel(&myModel);
-    tableView.show();
+    w.show();
 
     return a.exec();
 }

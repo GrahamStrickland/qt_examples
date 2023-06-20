@@ -4,7 +4,9 @@
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
-class QTreeView;   // Forward declaration
+class QTreeView;
+class QStandardItemModel;
+class QStandardItem;
 QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
@@ -14,7 +16,12 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
 
 private:
+    QList<QStandardItem *> prepareRow(const QString &first,
+                                      const QString &second, 
+                                      const QString &third) const;
+
     QTreeView *treeView;
+    QStandardItemModel *standardModel;
 };
 
 #endif // MAINWINDOW_H

@@ -4,6 +4,7 @@
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
+class QItemSelection;
 class QTreeView;
 class QStandardItemModel;
 class QStandardItem;
@@ -14,6 +15,10 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 public:
     explicit MainWindow(QWidget *parent = nullptr);
+
+public slots:
+    void selectionChangedSlot(const QItemSelection &, 
+                              const QItemSelection &);
 
 private:
     QList<QStandardItem *> prepareRow(const QString &first,

@@ -1,13 +1,25 @@
-#include <QCoreApplication>
-#include <QDebug>
-#include <QString>
+#include <QApplication>
+#include <QFileSystemModel>
+#include <QListView>
+#include <QSplitter>
+#include <QTreeView>
 
 int main(int argc, char *argv[]) {
-    QCoreApplication a(argc, argv);
+    QApplication app(argc, argv);
+    QSplitter *splitter = new QSplitter;
 
-    QString name = "Graham";
+    QFileSystemModel *model = new QFileSystemModel;
+    model->setRootPath(QDir::currentPath());
 
-    qDebug() << "Hello " << name << Qt::endl;
+    QTreeView *tree = new QTreeView(splitter);
+    tree->setModel(model);
+    tree->setRootIndex(model->index(QDir::currentPath()));
 
-    return QCoreApplication::exec();
+    QListView *list = new QListView(splitter);
+    list->setModel(model);
+    list->setRootIndex(model->index(QDir::currentPath()));
+
+    splitter->setWindowTitle("Two views onto the same file system model");
+    splitter->show();
+    return app.exec();
 }

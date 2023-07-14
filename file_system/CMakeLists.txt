@@ -27,7 +27,7 @@ target_link_libraries(file_system
     Qt6::Widgets
 )
 
-set_target_properties(file_sytem PROPERTIES 
+set_target_properties(file_system PROPERTIES 
     WIN32_EXECUTABLE ON
     MACOSX_BUNDLE ON
 )

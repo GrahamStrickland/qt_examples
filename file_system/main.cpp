@@ -21,5 +21,6 @@ int main(int argc, char *argv[]) {
 
     splitter->setWindowTitle("Two views onto the same file system model");
     splitter->show();
+
     return app.exec();
 }

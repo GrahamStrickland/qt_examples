@@ -1,0 +1,4 @@
+/Users/grahamstrickland/Documents/university/unisa/bsc98801mcs/2023/cos3711/qt_examples/tree_view/CMakeFiles/tree_view.dir
+/Users/grahamstrickland/Documents/university/unisa/bsc98801mcs/2023/cos3711/qt_examples/tree_view/CMakeFiles/edit_cache.dir
+/Users/grahamstrickland/Documents/university/unisa/bsc98801mcs/2023/cos3711/qt_examples/tree_view/CMakeFiles/rebuild_cache.dir
+/Users/grahamstrickland/Documents/university/unisa/bsc98801mcs/2023/cos3711/qt_examples/tree_view/CMakeFiles/tree_view_autogen.dir

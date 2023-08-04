@@ -17,4 +17,3 @@ private:
     int n;
 };
 #endif // COUNTER_H
-

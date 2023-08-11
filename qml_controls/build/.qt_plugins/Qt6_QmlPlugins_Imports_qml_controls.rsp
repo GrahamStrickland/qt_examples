@@ -1,0 +1,14 @@
+-rootPath
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/qml_controls/src
+-cmake-output
+-output-file
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/qml_controls/build/.qt_plugins/Qt6_QmlPlugins_Imports_qml_controls.cmake
+-importPath
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/qml_controls/build/QMLControls
+-importPath
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/qml_controls/build
+-importPath
+/usr/local/share/qt/qml
+-qrcFiles
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/qml_controls/build/.rcc/qmake_QMLControls.qrc
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/qml_controls/build/.rcc/qml_controls_raw_qml_0.qrc

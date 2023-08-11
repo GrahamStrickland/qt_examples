@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/QMLControls">/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/qml_controls/build/QMLControls</file>
+
+  </qresource>
+</RCC>

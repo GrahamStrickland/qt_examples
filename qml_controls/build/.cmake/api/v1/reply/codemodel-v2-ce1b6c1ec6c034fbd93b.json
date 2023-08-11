@@ -1,0 +1,168 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qml_controls",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-73f1f291448acebf9aae.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-6f1ad07af4bb434aa55e.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-1e2d0cbf421b00c17dc3.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-12088cfc63f707eb28c8.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qml_controls::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qml_controls-Debug-ba15599c3fce378abfea.json",
+					"name" : "qml_controls",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qml_controls_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qml_controls_autogen-Debug-871d038396c6f68e5d41.json",
+					"name" : "qml_controls_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qml_controls_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qml_controls_autogen_timestamp_deps-Debug-e978aa9172128aa5b02d.json",
+					"name" : "qml_controls_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qml_controls_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qml_controls_qmlimportscan-Debug-7d7c318cba97d579589d.json",
+					"name" : "qml_controls_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qml_controls_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qml_controls_qmllint-Debug-10d9b2faa20bc9f3e240.json",
+					"name" : "qml_controls_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qml_controls_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qml_controls_qmllint_json-Debug-b1cbbacaf90d8b18532f.json",
+					"name" : "qml_controls_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qml_controls_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qml_controls_qmllint_module-Debug-e38f07598cb75eae1ef6.json",
+					"name" : "qml_controls_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qml_controls_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qml_controls_qmltyperegistration-Debug-cd701914b02571780489.json",
+					"name" : "qml_controls_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qml_controls_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qml_controls_tooling-Debug-9045089098df6df426d1.json",
+					"name" : "qml_controls_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/qml_controls/build",
+		"source" : "/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/qml_controls/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

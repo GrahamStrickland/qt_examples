@@ -1,4 +1,4 @@
-# Install script for directory: /Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/src
+# Install script for directory: /Users/grahamstrickland/Documents/learning/computer_science/qt_examples/qml_controls/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/qml_controls/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

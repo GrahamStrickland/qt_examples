@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/hello">
-    <file alias="qmldir">/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/hello/qmldir</file>
-  </qresource>
-</RCC>
-

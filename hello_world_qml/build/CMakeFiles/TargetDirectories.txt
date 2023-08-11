@@ -1,0 +1,15 @@
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/CMakeFiles/hello_world_qml.dir
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/CMakeFiles/hello_world_qml_qmltyperegistration.dir
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/CMakeFiles/all_qmltyperegistrations.dir
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/CMakeFiles/hello_world_qml_qmllint.dir
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/CMakeFiles/hello_world_qml_qmllint_json.dir
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/CMakeFiles/hello_world_qml_qmllint_module.dir
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/CMakeFiles/all_qmllint.dir
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/CMakeFiles/all_qmllint_json.dir
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/CMakeFiles/all_qmllint_module.dir
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/CMakeFiles/hello_world_qml_tooling.dir
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/CMakeFiles/hello_world_qml_qmlimportscan.dir
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/CMakeFiles/edit_cache.dir
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/CMakeFiles/rebuild_cache.dir
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/CMakeFiles/hello_world_qml_autogen_timestamp_deps.dir
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/CMakeFiles/hello_world_qml_autogen.dir

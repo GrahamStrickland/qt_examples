@@ -1,0 +1,5 @@
+module HelloWorld
+typeinfo hello_world_qml.qmltypes
+prefer :/HelloWorld/
+HelloWorld 254.0 HelloWorld.qml
+

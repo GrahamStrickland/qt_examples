@@ -1,0 +1,14 @@
+-rootPath
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/src
+-cmake-output
+-output-file
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/.qt_plugins/Qt6_QmlPlugins_Imports_hello_world_qml.cmake
+-importPath
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/HelloWorld
+-importPath
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build
+-importPath
+/usr/local/share/qt/qml
+-qrcFiles
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/.rcc/qmake_HelloWorld.qrc
+/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/.rcc/hello_world_qml_raw_qml_0.qrc

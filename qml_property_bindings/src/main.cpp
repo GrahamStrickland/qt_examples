@@ -2,11 +2,11 @@
 #include <QQuickView>
 
 int main(int argc, char *argv[]) {
-    QGuiApplication app(argc, argv);
+  QGuiApplication app(argc, argv);
 
-    QQuickView *view = new QQuickView;
-    view->setSource(QUrl::fromLocalFile("src/main.qml"));
-    view->show();
+  QQuickView *view = new QQuickView;
+  view->setSource(QUrl::fromLocalFile("src/main.qml"));
+  view->show();
 
-    return app.exec();
+  return app.exec();
 }

@@ -8,18 +8,18 @@ class QLabel;
 class QTcpServer;
 
 class Server : public QDialog {
-    Q_OBJECT
+  Q_OBJECT
 public:
-    explicit Server(QWidget *parent = nullptr);
+  explicit Server(QWidget *parent = nullptr);
 
 private slots:
-    void sendFortune();
+  void sendFortune();
 
 private:
-    void initServer();
+  void initServer();
 
-    QLabel *statusLabel = nullptr;
-    QTcpServer *tcpServer = nullptr;
-    QList<QString> fortunes;
+  QLabel *statusLabel = nullptr;
+  QTcpServer *tcpServer = nullptr;
+  QList<QString> fortunes;
 };
 #endif // SERVER_H

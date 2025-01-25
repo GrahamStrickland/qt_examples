@@ -3,11 +3,11 @@
 #include "client.h"
 
 int main(int argc, char *argv[]) {
-    QApplication app(argc, argv);
-    QApplication::setApplicationDisplayName(Client::tr("Fortune Client"));
+  QApplication app(argc, argv);
+  QApplication::setApplicationDisplayName(Client::tr("Fortune Client"));
 
-    Client client;
-    client.show();
+  Client client;
+  client.show();
 
-    return app.exec();
+  return app.exec();
 }

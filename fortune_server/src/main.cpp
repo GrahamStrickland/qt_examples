@@ -3,11 +3,11 @@
 #include "server.h"
 
 int main(int argc, char *argv[]) {
-    QApplication app(argc, argv);
-    QApplication::setApplicationDisplayName(Server::tr("Fortune Server"));
+  QApplication app(argc, argv);
+  QApplication::setApplicationDisplayName(Server::tr("Fortune Server"));
 
-    Server server;
-    server.show();
+  Server server;
+  server.show();
 
-    return app.exec();
+  return app.exec();
 }

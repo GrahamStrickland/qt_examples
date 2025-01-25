@@ -7,30 +7,30 @@
 #include "tablemodel.h"
 
 int main(int argc, char *argv[]) {
-    QApplication app(argc, argv);
+  QApplication app(argc, argv);
 
-    TableModel *model = new TableModel(8, 4, &app);
+  TableModel *model = new TableModel(8, 4, &app);
 
-    QTableView *table = new QTableView(0);
-    table->setModel(model);
+  QTableView *table = new QTableView(0);
+  table->setModel(model);
 
-    QItemSelectionModel *selectionModel = table->selectionModel();
+  QItemSelectionModel *selectionModel = table->selectionModel();
 
-    QModelIndex topleft;
-    QModelIndex bottomRight;
+  QModelIndex topleft;
+  QModelIndex bottomRight;
 
-    topLeft = model->index(0, 0, QModelIndex());
-    bottomRight = model->index(5, 2, QModelIndex());
+  topLeft = model->index(0, 0, QModelIndex());
+  bottomRight = model->index(5, 2, QModelIndex());
 
-    QItemSelection selection(topLeft, bottomRight);
-    selectionModel->select(selection, QItemSelectionModel::Select);
+  QItemSelection selection(topLeft, bottomRight);
+  selectionModel->select(selection, QItemSelectionModel::Select);
 
-    const QModelIndex indexes = selectionModel->selectedIndexes();
+  const QModelIndex indexes = selectionModel->selectedIndexes();
 
-    for (const QModelIndex &index : indexes) {
-        QString text = QString("(%1,%2)").arg(index.row()).arg(index.column());
-        model->setData(index, text);
-    }
+  for (const QModelIndex &index : indexes) {
+    QString text = QString("(%1,%2)").arg(index.row()).arg(index.column());
+    model->setData(index, text);
+  }
 
-    return app.exec();
+  return app.exec();
 }

@@ -4,17 +4,16 @@
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
-class QTableView;   // Forward declaration
+class QTableView; // Forward declaration
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow
-{
-    Q_OBJECT
+class MainWindow : public QMainWindow {
+  Q_OBJECT
 public:
-    explicit MainWindow(QWidget *parent = nullptr);
+  explicit MainWindow(QWidget *parent = nullptr);
 
 private:
-    QTableView *tableView;
+  QTableView *tableView;
 };
 
 #endif // MAINWINDOW_H

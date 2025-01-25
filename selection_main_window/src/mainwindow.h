@@ -6,14 +6,14 @@
 #include <QMainWindow>
 
 class MainWindow : public QMainWindow {
-    Q_OBJECT
+  Q_OBJECT
 public:
-    MainWindow(QAbstractTableModel *model, QMainWindow *parent = nullptr);
+  MainWindow(QAbstractTableModel *model, QMainWindow *parent = nullptr);
 
-    void updateSelection(const QItemSelection &selected, 
-            const QItemSelection &deselected);
+  void updateSelection(const QItemSelection &selected,
+                       const QItemSelection &deselected);
 
 private:
-    QAbstractTableModel *model;
+  QAbstractTableModel *model;
 };
 #endif // MAIN_WINDOW_H

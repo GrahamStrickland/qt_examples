@@ -4,15 +4,15 @@
 #include "counter.h"
 
 int main(int argc, char *argv[]) {
-    QCoreApplication app(argc, argv);
-    QTextStream cout(stdout);
+  QCoreApplication app(argc, argv);
+  QTextStream cout(stdout);
 
-    Counter counter;
-    counter.increment();
-    cout << counter.value() << Qt::endl;
+  Counter counter;
+  counter.increment();
+  cout << counter.value() << Qt::endl;
 
-    counter.decrement();
-    cout << counter.value() << Qt::endl;
+  counter.decrement();
+  cout << counter.value() << Qt::endl;
 
-    return app.exec();
+  return app.exec();
 }

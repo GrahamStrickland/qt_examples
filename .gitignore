@@ -24,9 +24,9 @@
 
 # CMake files
 cmake-build-debug/
-**/build
-**/CMakeFiles
-*.cmake
+build/
+CMakeFiles/
+.cmake/
 CMakeCache.txt
 compile_commands.json
 
@@ -45,3 +45,6 @@ $HOME
 
 # Apple files
 *.icloud
+
+# QML files
+.rcc/

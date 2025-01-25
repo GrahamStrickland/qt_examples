@@ -25,6 +25,10 @@
 # CMake files
 cmake-build-debug/
 **/build
+**/CMakeFiles
+*.cmake
+CMakeCache.txt
+compile_commands.json
 
 # Object files and debugging files
 *.o
@@ -35,6 +39,9 @@ cmake-build-debug/
 # Vim files
 *.swp
 $HOME
+
+# clang-tidy files
+.cache/
 
 # Apple files
 *.icloud

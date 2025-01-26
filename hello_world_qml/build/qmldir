@@ -1,8 +1,0 @@
-module hello
-linktarget hello_world_qmlplugin
-optional plugin hello_world_qmlplugin
-classname helloPlugin
-typeinfo hello_world_qml.qmltypes
-prefer :/hello/
-HelloWorld 254.0 HelloWorld.qml
-

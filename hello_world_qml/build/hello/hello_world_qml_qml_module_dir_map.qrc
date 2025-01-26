@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/hello">/Users/grahamstrickland/Documents/learning/computer_science/qt_examples/hello_world_qml/build/hello</file>
-
-  </qresource>
-</RCC>

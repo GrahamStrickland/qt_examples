@@ -1,4 +1,0 @@
-module QMLControls
-typeinfo qml_controls.qmltypes
-prefer :/QMLControls/
-
